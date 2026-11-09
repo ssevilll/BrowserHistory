@@ -1,0 +1,7 @@
+BROWSER_HISTORY_CPP_V1
+CAPACITY 50
+CURRENT 4
+PAGES 3
+1 "https://example.com" "Homepage" 1793868758
+2 "https://www.youtube.com" "Videos" 1793868758
+4 "https://www.ada.edu.az" "University" 1793868758

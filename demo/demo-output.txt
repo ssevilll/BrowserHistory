@@ -1,0 +1,289 @@
+Browser History Manager (C++23) | starting page: https://example.com
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: URL: Title (optional): Visited: https://www.youtube.com
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: URL: Title (optional): Visited: https://github.com
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice:           #1  https://example.com  (Homepage)
+            <-->
+          #2  https://www.youtube.com  (Videos)
+            <-->
+[CURRENT] #3  https://github.com  (Coding)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Now at: Number of steps: https://www.youtube.com
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Current: #2 | URL: https://www.youtube.com | title: Videos | visitedAt (UTC epoch): 1793868758
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: URL: Title (optional): Visited: https://www.ada.edu.az
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice:           #1  https://example.com  (Homepage)
+            <-->
+          #2  https://www.youtube.com  (Videos)
+            <-->
+[CURRENT] #4  https://www.ada.edu.az  (University)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Exact URL to delete: URL deleted and pushed to restore stack
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice:           #1  https://example.com  (Homepage)
+            <-->
+[CURRENT] #4  https://www.ada.edu.az  (University)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Restored latest deleted URL
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice:           #1  https://example.com  (Homepage)
+            <-->
+          #2  https://www.youtube.com  (Videos)
+            <-->
+[CURRENT] #4  https://www.ada.edu.az  (University)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Export file path (.txt): Exported to demo/history-export.txt
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: History and restore stack cleared
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: (History is empty)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Import file path (.txt): Imported 3 page(s)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice:           #1  https://example.com  (Homepage)
+            <-->
+          #2  https://www.youtube.com  (Videos)
+            <-->
+[CURRENT] #4  https://www.ada.edu.az  (University)
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Pages: 3/50 | Undo stack: 0
+
+=== MENU ===
+1. Visit a page
+2. Back
+3. Forward
+4. Current page and metadata
+5. Display history
+6. Delete a URL
+7. Restore last deleted URL
+8. Clear all history
+9. Export history to TXT
+10. Import history from TXT
+11. Show history statistics
+0. Exit
+Choice: Goodbye!

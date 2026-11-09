@@ -1,0 +1,38 @@
+[PASS] initial homepage
+[PASS] default capacity 50
+[PASS] custom capacity validation
+[PASS] visit updates current
+[PASS] visit preserves oldest-to-newest order
+[PASS] back one
+[PASS] forward one
+[PASS] back clamps at oldest
+[PASS] forward clamps at newest
+[PASS] zero steps do not navigate
+[PASS] negative navigation rejected
+[PASS] branching drops forward pages
+[PASS] branching from oldest
+[PASS] current page query does not move cursor
+[PASS] display shows current marker
+[PASS] delete middle URL
+[PASS] delete oldest URL
+[PASS] delete newest current URL
+[PASS] delete active head selects next
+[PASS] delete nonexistent URL
+[PASS] duplicate URL latest removed
+[PASS] restore empty stack
+[PASS] restore reconnects middle
+[PASS] restore is LIFO
+[PASS] restore from fully empty history
+[PASS] capacity evicts oldest
+[PASS] capacity one
+[PASS] restore when capacity full
+[PASS] clear empties list and stack
+[PASS] visit after clear starts new history
+[PASS] reject blank URL
+[PASS] export import full roundtrip
+[PASS] export import empty history
+[PASS] invalid import never changes state
+[PASS] invalid cursor never changes state
+[PASS] import clears undo stack
+[PASS] deterministic 1500-operation pointer stress
+RESULT: 37 passed, 0 failed

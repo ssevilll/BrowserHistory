@@ -1,0 +1,6 @@
+build/
+**/bin/
+**/obj/
+*.user
+*.log
+.DS_Store

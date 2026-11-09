@@ -1,0 +1,9 @@
+1. Browser History Manager: This demo uses the compiled C plus plus program and a scripted terminal session. The main data structure is a custom doubly linked list, accompanied by a custom deletion stack.
+2. Each node contains a unique ID, URL, title, timestamp, and previous and next pointers. The BrowserHistory manager also keeps a cursor to the currently active node.
+3. Visiting a page inserts the URL after the current position, using pointer updates. The session starts with example dot com, then visits YouTube and GitHub. The history output marks GitHub as current.
+4. When we go back one step, the cursor moves from GitHub to YouTube. Visiting ADA University then drops GitHub from the forward branch before adding the new page.
+5. The delete feature finds the latest matching URL, unlinks the node, and pushes its information onto the LIFO stack. Here YouTube is deleted from between the homepage and ADA University.
+6. Restore pops the last deleted node and places it back near its original location. The history is once again homepage, YouTube, and ADA University.
+7. The system also limits the number of stored pages. On overflow it prunes the oldest page. Export writes the list, cursor, metadata, and capacity to a text file, and import restores that saved state.
+8. The native C plus plus test script checks navigation bounds, branching, deletion, LIFO restoration, capacity, import and export, and invalid inputs. All thirty seven included native tests passed, including a deterministic stress test. A separate xUnit dot net integration test project is also included for local execution.
+9. The main program provides a console menu for every required feature. The doubly linked list and stack are implemented from scratch. The actual xUnit dot net tests run in C sharp and drive the compiled C plus plus program. This concludes the reference walkthrough.

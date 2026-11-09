@@ -158,6 +158,10 @@ void DeletedHistoryStack::clear() noexcept {
     count_ = 0;
 }
 
+
+
+
+// BrowserHistory implementation with a doubly linked list for the main history and a custom stack for deleted entries.
 BrowserHistory::BrowserHistory(std::string homepage, std::size_t capacity)
     : capacity_(capacity) {
     if (capacity < 1) throw std::invalid_argument("Capacity must be at least 1");
